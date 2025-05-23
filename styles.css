@@ -1,0 +1,81 @@
+/* Reset & base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Courier Prime', monospace;
+  line-height: 1.5;
+  text-align: center;
+  padding: 40px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Logo & heading */
+.logo {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Paragraphs & list */
+p {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Bottom brand links */
+.brand-links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.placeholder {
+  background: #e63946;
+  color: #fff;
+  width: 180px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.9em;
+  padding: 10px;
+}
+
+.brand a {
+  margin-top: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
