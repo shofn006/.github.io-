@@ -79,3 +79,27 @@ ul li {
   text-decoration: none;
   font-weight: 700;
 }
+.brand-links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.brand {
+  text-align: center;
+}
+
+.brand-logo {
+  max-width: 180px;   /* match your old placeholder width */
+  height: auto;
+  display: block;
+  margin: 0 auto 10px; /* center + space below */
+}
+
+.brand a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Courier Prime', monospace;
+}
